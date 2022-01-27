@@ -10,7 +10,7 @@ for (let i=0; i<10; i++) {
 
     numeroInserito = parseInt(prompt('inserisci un numero'));
     sommaNumeri += numeroInserito;
-    numero.innerHTML += numeroInserito 3;
+    numero.innerHTML += numeroInserito;
     somma.innerHTML = sommaNumeri;
 }
 
