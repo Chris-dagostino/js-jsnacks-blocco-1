@@ -1,11 +1,16 @@
-numero = document.getElementById('numeri');
-numero.innerHTML = numero;
+let numero = document.getElementById('numeri');
 
-somma = document.getElementById('somma');
-somma.innerHTML = somma;
+let somma = document.getElementById('somma');
+
+let sommaNumeri = 0;
+
+numero.innerHTML= "";
 
 for (let i=0; i<10; i++) {
 
-    numero = parseInt(prompt('inserisci un numero'));
-    somma = somma + numero
+    numeroInserito = parseInt(prompt('inserisci un numero'));
+    sommaNumeri += numeroInserito;
+    numero.innerHTML += numeroInserito 3;
+    somma.innerHTML = sommaNumeri;
 }
+
